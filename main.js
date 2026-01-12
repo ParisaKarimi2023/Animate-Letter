@@ -1,6 +1,6 @@
 let spans = document.querySelectorAll('.word span');
 spans.forEach(function (span , index) {
-  span.addEventListener('click',function (e) {
+  span.addEventListener('Animate',function (e) {
       e.target.classList.add('active');
   })
     span.addEventListener('animationend',function (e) {
